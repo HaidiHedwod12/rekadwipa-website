@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek - PT. Rekadwipa Teknika Studio</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="../assets/images/logo.png" alt="Rekadwipa Teknika Studio">
+                    <h1>Rekadwipa Teknika Studio</h1>
+                </div>
+                <div class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="services.html">Layanan</a></li>
+                        <li><a href="projects.html" class="active">Proyek</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                        <li class="language-switch">
+                            <a href="#" class="active">ID</a> | 
+                            <a href="../en/pages/projects.html">EN</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Proyek Kami</h1>
+                <div class="breadcrumb">
+                    <a href="../index.html">Home</a> / <span>Proyek</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Introduction -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header scroll-animation">
+                <h2 class="section-title">Mengubah Tantangan Menjadi Solusi Nyata</h2>
+                <p>Setiap proyek dirancang untuk tidak hanya menyelesaikan masalah, tetapi juga menghadirkan solusi yang relevan dan berkelanjutan. Kami memastikan hasilnya memberikan manfaat nyata bagi pengguna.</p>
+            </div>
+            
+            <!-- Projects Filter -->
+            <div class="projects-filter scroll-animation delay-100">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="tata-ruang">Perencanaan Tata Ruang</button>
+                <button class="filter-btn" data-filter="arsitektur">Arsitektur</button>
+                <button class="filter-btn" data-filter="it-development">IT Development</button>
+                <button class="filter-btn" data-filter="teknik-sipil">Teknik Sipil</button>
+                <button class="filter-btn" data-filter="drone-mapping">Drone Mapping</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card tata-ruang scroll-animation delay-200" id="project1">
+                    <img src="../assets/images/projects/project1.jpg" alt="Pembuatan Peta Digital Desa" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Pembuatan Peta Digital Desa</h3>
+                        <p class="project-category">Perencanaan Tata Ruang</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-1">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card teknik-sipil scroll-animation delay-200" id="project2">
+                    <img src="../assets/images/projects/project2.jpg" alt="Survey Kondisi Jalan" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Survey Kondisi Jalan</h3>
+                        <p class="project-category">Teknik Sipil</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-2">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card drone-mapping scroll-animation delay-200" id="project3">
+                    <img src="../assets/images/projects/project3.jpg" alt="Drone Mapping" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Drone Mapping untuk Pemetaan Kawasan</h3>
+                        <p class="project-category">Drone Mapping</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-3">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card it-development scroll-animation delay-300">
+                    <img src="../assets/images/projects/project4.jpg" alt="Sistem Informasi Aset" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Sistem Informasi Manajemen Aset</h3>
+                        <p class="project-category">IT Development</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-4">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card arsitektur scroll-animation delay-300">
+                    <img src="../assets/images/projects/project5.jpg" alt="Desain Gedung Perkantoran" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Desain Gedung Perkantoran Modern</h3>
+                        <p class="project-category">Arsitektur</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-5">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card teknik-sipil scroll-animation delay-300">
+                    <img src="../assets/images/projects/project6.jpg" alt="Kajian Drainase" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Kajian Sistem Drainase Perkotaan</h3>
+                        <p class="project-category">Teknik Sipil</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-6">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 7 -->
+                <div class="project-card tata-ruang scroll-animation">
+                    <img src="../assets/images/projects/project7.jpg" alt="Rencana Tata Ruang" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Penyusunan RDTR Kawasan Strategis</h3>
+                        <p class="project-category">Perencanaan Tata Ruang</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-7">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 8 -->
+                <div class="project-card it-development scroll-animation">
+                    <img src="../assets/images/projects/project8.jpg" alt="Aplikasi Mobile" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Aplikasi Mobile Informasi Layanan Publik</h3>
+                        <p class="project-category">IT Development</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-8">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 9 -->
+                <div class="project-card drone-mapping scroll-animation">
+                    <img src="../assets/images/projects/project9.jpg" alt="Pemetaan 3D" class="project-image">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Pemetaan 3D Situs Bersejarah</h3>
+                        <p class="project-category">Drone Mapping</p>
+                        <a href="#" class="project-link modal-trigger" data-target="project-modal-9">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div id="project-modal-1" class="project-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            
+            <div class="project-modal-content">
+                <!-- Modal Left Side - Gallery and Key Info -->
+                <div class="project-modal-gallery">
+                    <div class="project-cover-image">
+                        <img src="../assets/images/projects/project1-detail.jpg" alt="Pembuatan Peta Digital Desa">
+                        <div class="project-category-badge">Perencanaan Tata Ruang</div>
+                    </div>
+                    
+                    <div class="project-thumbnail-gallery">
+                        <div class="thumbnail active" data-img="../assets/images/projects/project1-detail.jpg">
+                            <img src="../assets/images/projects/project1-detail.jpg" alt="Overview">
+                        </div>
+                        <div class="thumbnail" data-img="../assets/images/projects/project1-detail2.jpg">
+                            <img src="../assets/images/projects/project1-detail2.jpg" alt="Detail Map">
+                        </div>
+                        <div class="thumbnail" data-img="../assets/images/projects/project1-detail3.jpg">
+                            <img src="../assets/images/projects/project1-detail3.jpg" alt="Implementation">
+                        </div>
+                    </div>
+                    
+                    <div class="project-meta-details">
+                        <div class="meta-group">
+                            <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                            <div class="meta-content">
+                                <h4>Klien</h4>
+                                <p>Bapperida Kabupaten Demak</p>
+                            </div>
+                        </div>
+                        
+                        <div class="meta-group">
+                            <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="meta-content">
+                                <h4>Lokasi</h4>
+                                <p>Kabupaten Demak, Jawa Tengah</p>
+                            </div>
+                        </div>
+                        
+                        <div class="meta-group">
+                            <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <div class="meta-content">
+                                <h4>Tahun</h4>
+                                <p>2021 - 2025</p>
+                            </div>
+                        </div>
+                        
+                        <div class="meta-group">
+                            <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                            <div class="meta-content">
+                                <h4>Status</h4>
+                                <p class="status-completed">Selesai</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal Right Side - Information -->
+                <div class="project-modal-info">
+                    <h2 class="project-title">Pembuatan Peta Digital Desa</h2>
+                    
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="fas fa-map"></i></div>
+                            <div class="highlight-text">Pemetaan 14 kecamatan, 286 desa</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="fas fa-users"></i></div>
+                            <div class="highlight-text">Melibatkan 200+ warga</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon"><i class="fas fa-file-alt"></i></div>
+                            <div class="highlight-text">5 peta tematik untuk setiap desa</div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-description">
+                        <div class="description-tabs">
+                            <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                            <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                            <button class="tab-btn" data-tab="solution">Solusi</button>
+                            <button class="tab-btn" data-tab="result">Hasil</button>
+                        </div>
+                        
+                        <div class="tab-content active" id="overview">
+                            <p>Proyek Pembuatan Peta Digital Desa merupakan inisiatif untuk menyediakan data spasial yang akurat dan komprehensif untuk mendukung perencanaan pembangunan desa. Peta desa merupakan peta tematik bersifat dasar yang berisi unsur dan informasi batas wilayah, infrastruktur transportasi, toponim, perairan, sarana prasarana, penutup lahan dan penggunaan lahan.</p>
+                            <p>Proyek ini menggunakan metode partisipatif untuk mengembangkan peta digital yang benar-benar mencerminkan kondisi desa dan kebutuhan masyarakat lokal.</p>
+                        </div>
+                        
+                        <div class="tab-content" id="challenge">
+                            <div class="challenge-list">
+                                <div class="challenge-item">
+                                    <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div class="challenge-content">
+                                        <h4>Keterbatasan Data Spasial</h4>
+                                        <p>Minimnya data spasial yang tersedia dan akurat untuk area pedesaan.</p>
+                                    </div>
+                                </div>
+                                <div class="challenge-item">
+                                    <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div class="challenge-content">
+                                        <h4>Kondisi Geografis Beragam</h4>
+                                        <p>Beragamnya kondisi geografis yang membutuhkan pendekatan pemetaan berbeda.</p>
+                                    </div>
+                                </div>
+                                <div class="challenge-item">
+                                    <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div class="challenge-content">
+                                        <h4>Pelibatan Masyarakat</h4>
+                                        <p>Kebutuhan untuk melibatkan masyarakat desa dalam proses pemetaan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="solution">
+                            <div class="solution-approach">
+                                <h4>Pendekatan Partisipatif</h4>
+                                <p>Tim PT. Rekadwipa Teknika Studio menggunakan pendekatan partisipatif dalam pemetaan desa, melibatkan masyarakat lokal dan perangkat desa.</p>
+                                
+                                <div class="solution-methods">
+                                    <div class="method-item">
+                                        <div class="method-icon"><i class="fas fa-drone-alt"></i></div>
+                                        <div class="method-name">Drone Mapping</div>
+                                    </div>
+                                    <div class="method-item">
+                                        <div class="method-icon"><i class="fas fa-street-view"></i></div>
+                                        <div class="method-name">Survei Lapangan</div>
+                                    </div>
+                                    <div class="method-item">
+                                        <div class="method-icon"><i class="fas fa-globe"></i></div>
+                                        <div class="method-name">GIS Analysis</div>
+                                    </div>
+                                    <div class="method-item">
+                                        <div class="method-icon"><i class="fas fa-users"></i></div>
+                                        <div class="method-name">Focus Group</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="result">
+                            <div class="result-summary">
+                                <p>Proyek ini menghasilkan peta digital desa yang akurat dan komprehensif dengan berbagai manfaat untuk pengembangan desa:</p>
+                            </div>
+                            
+                            <div class="result-highlights">
+                                <div class="result-item">
+                                    <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                    <div class="result-content">
+                                        <h4>Peta Batas Administrasi yang Akurat</h4>
+                                        <p>Membantu menyelesaikan potensi konflik batas wilayah antar desa.</p>
+                                    </div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                    <div class="result-content">
+                                        <h4>Data Infrastruktur Terdigitalisasi</h4>
+                                        <p>Inventarisasi dan pemetaan infrastruktur penting untuk perencanaan pembangunan.</p>
+                                    </div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                    <div class="result-content">
+                                        <h4>Sistem Informasi Desa Terintegrasi</h4>
+                                        <p>Integrasi peta digital ke dalam sistem informasi desa untuk mendukung pengambilan keputusan.</p>
+                                    </div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                    <div class="result-content">
+                                        <h4>Kapasitas Lokal Terbangun</h4>
+                                        <p>Pelatihan untuk warga desa dalam penggunaan dan pembaruan peta digital.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-cta">
+                        <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Project Modal 2 - Survey Kondisi Jalan -->
+<div id="project-modal-2" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project2-detail.jpg" alt="Survey Kondisi Jalan">
+                    <div class="project-category-badge">Teknik Sipil</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project2-detail.jpg">
+                        <img src="../assets/images/projects/project2-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project2-detail2.jpg">
+                        <img src="../assets/images/projects/project2-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project2-detail3.jpg">
+                        <img src="../assets/images/projects/project2-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Dinas PUPR Kabupaten Sukoharjo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kabupaten Sukoharjo, Jawa Tengah</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2022 - 2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Survey Kondisi Jalan</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-road"></i></div>
+                        <div class="highlight-text">Survey 250+ km jalan kabupaten</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-chart-bar"></i></div>
+                        <div class="highlight-text">Analisis kondisi 56 ruas jalan</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-map"></i></div>
+                        <div class="highlight-text">Pemetaan prioritas pemeliharaan</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Survey Kondisi Jalan merupakan inisiatif untuk melakukan pendataan dan evaluasi kondisi jalan secara komprehensif di Kabupaten Sukoharjo. Proyek ini bertujuan untuk menghasilkan data akurat mengenai kondisi jalan sebagai dasar pengambilan keputusan dalam perencanaan pemeliharaan dan perbaikan infrastruktur jalan.</p>
+                        <p>Survei ini mencakup pengumpulan data kondisi permukaan jalan, drainase, bahu jalan, dan fasilitas pendukung lainnya untuk menentukan indeks kondisi jalan dan prioritas penanganannya.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Cakupan Wilayah yang Luas</h4>
+                                    <p>Luasnya wilayah yang harus disurvei dengan beragam kondisi geografis.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kebutuhan Data yang Akurat</h4>
+                                    <p>Kebutuhan data yang detail dan akurat untuk mendukung perencanaan yang tepat.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Keterbatasan Waktu</h4>
+                                    <p>Jadwal yang ketat untuk menyelesaikan survei seluruh ruas jalan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Sistematis</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menggunakan pendekatan sistematis dalam melakukan survei kondisi jalan dengan teknologi modern.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-tablet-alt"></i></div>
+                                    <div class="method-name">Mobile Survey</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-camera"></i></div>
+                                    <div class="method-name">Foto Dokumentasi</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-chart-line"></i></div>
+                                    <div class="method-name">Analisis Data</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-map-marked-alt"></i></div>
+                                    <div class="method-name">GIS Mapping</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan data kondisi jalan yang komprehensif dan rekomendasi untuk program pemeliharaan jalan:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Database Kondisi Jalan</h4>
+                                    <p>Database terpadu yang berisi informasi kondisi seluruh ruas jalan kabupaten.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Peta Tematik Kondisi Jalan</h4>
+                                    <p>Visualisasi kondisi jalan dalam bentuk peta yang mudah dipahami.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Rekomendasi Pemeliharaan</h4>
+                                    <p>Daftar prioritas pemeliharaan dan perbaikan jalan berdasarkan hasil analisis.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Estimasi Biaya Penanganan</h4>
+                                    <p>Perhitungan estimasi biaya untuk program pemeliharaan dan rehabilitasi jalan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- Project Modal 3 - Drone Mapping untuk Pemetaan Kawasan -->
+<div id="project-modal-3" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project3-detail.jpg" alt="Drone Mapping untuk Pemetaan Kawasan">
+                    <div class="project-category-badge">Drone Mapping</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project3-detail.jpg">
+                        <img src="../assets/images/projects/project3-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project3-detail2.jpg">
+                        <img src="../assets/images/projects/project3-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project3-detail3.jpg">
+                        <img src="../assets/images/projects/project3-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Dinas Pariwisata Kabupaten Karanganyar</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kawasan Wisata Tawangmangu, Karanganyar</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Drone Mapping untuk Pemetaan Kawasan</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-helicopter"></i></div>
+                        <div class="highlight-text">Pemetaan area 500+ hektar</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-camera"></i></div>
+                        <div class="highlight-text">Foto udara resolusi tinggi</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-mountain"></i></div>
+                        <div class="highlight-text">Model 3D kawasan wisata</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Drone Mapping untuk Pemetaan Kawasan Wisata Tawangmangu bertujuan untuk menghasilkan data spasial yang akurat tentang kawasan wisata untuk mendukung pengembangan dan pengelolaan pariwisata. Drone mapping memungkinkan pemetaan detail dengan efisiensi tinggi di area yang luas dan berkontur.</p>
+                        <p>Data yang dihasilkan meliputi foto udara resolusi tinggi, model elevasi digital, dan peta tematik yang menjadi basis informasi untuk perencanaan pengembangan kawasan wisata.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kondisi Topografi yang Kompleks</h4>
+                                    <p>Area pemetaan memiliki kontur yang bervariasi dengan perbedaan elevasi signifikan.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kondisi Cuaca</h4>
+                                    <p>Cuaca yang tidak stabil di area pegunungan memengaruhi jadwal penerbangan drone.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kebutuhan Akurasi Tinggi</h4>
+                                    <p>Dibutuhkan tingkat akurasi yang tinggi untuk perencanaan detail.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Teknis</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menggunakan teknologi drone terkini dan metode pengolahan data canggih untuk menghasilkan peta yang akurat.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-helicopter"></i></div>
+                                    <div class="method-name">UAV Survey</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-map"></i></div>
+                                    <div class="method-name">Ortofoto</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-mountain"></i></div>
+                                    <div class="method-name">DEM Processing</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-cube"></i></div>
+                                    <div class="method-name">3D Modeling</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan data spasial komprehensif yang mendukung pengembangan kawasan wisata:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Ortofoto Resolusi Tinggi</h4>
+                                    <p>Foto udara terkoreksi dengan resolusi 5 cm/pixel yang menampilkan detail kawasan.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Model Elevasi Digital</h4>
+                                    <p>Data ketinggian digital untuk analisis kontur dan kemiringan lahan.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Model 3D Kawasan</h4>
+                                    <p>Visualisasi 3D kawasan untuk simulasi pengembangan dan promosi wisata.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Peta Tematik Kawasan</h4>
+                                    <p>Peta penggunaan lahan, fasilitas, dan potensi pengembangan kawasan wisata.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Project Modal 4 - Sistem Informasi Manajemen Aset -->
+<div id="project-modal-4" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project4-detail.jpg" alt="Sistem Informasi Manajemen Aset">
+                    <div class="project-category-badge">IT Development</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project4-detail.jpg">
+                        <img src="../assets/images/projects/project4-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project4-detail2.jpg">
+                        <img src="../assets/images/projects/project4-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project4-detail3.jpg">
+                        <img src="../assets/images/projects/project4-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Pemerintah Kabupaten Boyolali</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kabupaten Boyolali, Jawa Tengah</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2022 - 2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Sistem Informasi Manajemen Aset</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-database"></i></div>
+                        <div class="highlight-text">Integrasi database 5000+ aset</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="highlight-text">Aplikasi web responsif</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <div class="highlight-text">Pemetaan geografis aset</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Sistem Informasi Manajemen Aset merupakan inisiatif untuk mengembangkan platform digital terintegrasi yang memungkinkan pengelolaan aset pemerintah daerah secara efisien dan transparan. Sistem ini dirancang untuk memudahkan pendataan, pemantauan, dan pelaporan aset daerah sesuai dengan standar dan regulasi yang berlaku.</p>
+                        <p>Sistem ini menjadi solusi komprehensif dalam mengelola seluruh siklus hidup aset mulai dari perencanaan, pengadaan, penggunaan, pemeliharaan, hingga penghapusan.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Keragaman Jenis Aset</h4>
+                                    <p>Beragamnya jenis aset yang harus dikelola dengan karakteristik berbeda.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Integrasi dengan Sistem Keuangan</h4>
+                                    <p>Kebutuhan untuk terintegrasi dengan sistem anggaran dan keuangan yang ada.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kesesuaian Regulasi</h4>
+                                    <p>Kepatuhan terhadap regulasi terbaru tentang pengelolaan aset daerah.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Pengembangan</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menggunakan metodologi agile dalam pengembangan sistem dan melibatkan pengguna dalam setiap tahap.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-laptop-code"></i></div>
+                                    <div class="method-name">Web Development</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-database"></i></div>
+                                    <div class="method-name">Database Design</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-map"></i></div>
+                                    <div class="method-name">GIS Integration</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-chart-bar"></i></div>
+                                    <div class="method-name">Reporting Module</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan sistem informasi manajemen aset yang komprehensif dengan fitur-fitur berikut:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Modul Pendataan Aset</h4>
+                                    <p>Fitur lengkap untuk pendataan seluruh aset dengan detail karakteristik dan status.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Modul Pemeliharaan</h4>
+                                    <p>Sistem monitoring dan penjadwalan pemeliharaan aset secara berkala.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Modul Pelaporan</h4>
+                                    <p>Generasi otomatis laporan aset sesuai dengan format regulasi terbaru.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Visualisasi Geografis</h4>
+                                    <p>Pemetaan aset secara geografis untuk analisis spasial dan pengambilan keputusan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Modal 5 - Desain Gedung Perkantoran Modern -->
+<div id="project-modal-5" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project5-detail.jpg" alt="Desain Gedung Perkantoran Modern">
+                    <div class="project-category-badge">Arsitektur</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project5-detail.jpg">
+                        <img src="../assets/images/projects/project5-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project5-detail2.jpg">
+                        <img src="../assets/images/projects/project5-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project5-detail3.jpg">
+                        <img src="../assets/images/projects/project5-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Dinas Pekerjaan Umum Kota Surakarta</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kota Surakarta, Jawa Tengah</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2023 - 2024</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Desain Gedung Perkantoran Modern</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-building"></i></div>
+                        <div class="highlight-text">Gedung 5 lantai ramah lingkungan</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-leaf"></i></div>
+                        <div class="highlight-text">Konsep green building</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-bolt"></i></div>
+                        <div class="highlight-text">Efisiensi energi 40%</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Desain Gedung Perkantoran Modern merupakan inisiatif untuk merancang gedung kantor pemerintah dengan konsep modern yang menggabungkan estetika, fungsionalitas, dan keberlanjutan. Gedung ini dirancang dengan mempertimbangkan efisiensi energi, kenyamanan pengguna, dan integrasi dengan lingkungan sekitar.</p>
+                        <p>Desain ini menerapkan prinsip-prinsip arsitektur hijau dengan penggunaan material ramah lingkungan, sistem pencahayaan dan penghawaan alami, serta teknologi bangunan cerdas untuk mengoptimalkan penggunaan sumber daya.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Keterbatasan Lahan</h4>
+                                    <p>Lahan yang terbatas di area perkotaan dengan kebutuhan ruang yang kompleks.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Efisiensi Energi</h4>
+                                    <p>Kebutuhan untuk merancang bangunan yang hemat energi dengan biaya operasional rendah.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Integrasi Budaya Lokal</h4>
+                                    <p>Mengintegrasikan unsur budaya lokal dalam desain arsitektur modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Desain</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menggunakan pendekatan desain terpadu yang menggabungkan aspek fungsional, estetika, dan keberlanjutan.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-pencil-ruler"></i></div>
+                                    <div class="method-name">Bioclimatic Design</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-solar-panel"></i></div>
+                                    <div class="method-name">Green Technology</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-laptop"></i></div>
+                                    <div class="method-name">3D Visualization</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-universal-access"></i></div>
+                                    <div class="method-name">Inclusive Design</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan desain arsitektur komprehensif dengan fitur-fitur berikut:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Desain Terintegrasi</h4>
+                                    <p>Desain arsitektur yang memadukan unsur modern dengan nuansa budaya lokal.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Sistem Bangunan Efisien</h4>
+                                    <p>Pemanfaatan cahaya dan ventilasi alami untuk mengurangi konsumsi energi.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Ruang Kerja Ergonomis</h4>
+                                    <p>Tata letak ruang yang mengoptimalkan produktivitas dan kenyamanan pegawai.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Landscape Ramah Lingkungan</h4>
+                                    <p>Penataan landscape dengan vegetasi lokal dan sistem pengolahan air hujan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Modal 6 - Kajian Sistem Drainase Perkotaan -->
+<div id="project-modal-6" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project6-detail.jpg" alt="Kajian Sistem Drainase Perkotaan">
+                    <div class="project-category-badge">Teknik Sipil</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project6-detail.jpg">
+                        <img src="../assets/images/projects/project6-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project6-detail2.jpg">
+                        <img src="../assets/images/projects/project6-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project6-detail3.jpg">
+                        <img src="../assets/images/projects/project6-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Dinas PUPR Kota Klaten</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kota Klaten, Jawa Tengah</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2022 - 2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Kajian Sistem Drainase Perkotaan</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-water"></i></div>
+                        <div class="highlight-text">Analisis 32 saluran drainase utama</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="highlight-text">Pemodelan hidrologi & hidrolika</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-calculator"></i></div>
+                        <div class="highlight-text">Perhitungan debit banjir rencana</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Kajian Sistem Drainase Perkotaan merupakan studi komprehensif untuk menganalisis kondisi sistem drainase eksisting di Kota Klaten dan memberikan rekomendasi solusi yang efektif untuk mengatasi permasalahan banjir dan genangan. Kajian ini mencakup analisis hidrologi, evaluasi kapasitas saluran, dan perencanaan sistem drainase yang berkelanjutan.</p>
+                        <p>Melalui pendekatan ilmiah dan teknologi pemodelan terkini, proyek ini bertujuan untuk meningkatkan kinerja sistem drainase perkotaan dan mengurangi risiko banjir di masa mendatang.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Data Hidrologi Terbatas</h4>
+                                    <p>Keterbatasan ketersediaan data historis curah hujan dan debit aliran.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kompleksitas Sistem Eksisting</h4>
+                                    <p>Beragamnya kondisi dan dimensi saluran yang sudah ada dengan dokumentasi terbatas.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Perubahan Tata Guna Lahan</h4>
+                                    <p>Perkembangan perkotaan yang cepat mengubah karakteristik limpasan permukaan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Analisis</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menggunakan kombinasi survei lapangan, analisis data, dan pemodelan komputasi untuk mengkaji sistem drainase.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-tint"></i></div>
+                                    <div class="method-name">Hydrology Analysis</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-wind"></i></div>
+                                    <div class="method-name">Hydraulic Modeling</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-map-marked-alt"></i></div>
+                                    <div class="method-name">GIS Mapping</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-layer-group"></i></div>
+                                    <div class="method-name">Cost Analysis</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan kajian komprehensif dan rekomendasi teknis untuk sistem drainase perkotaan:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Peta Daerah Rawan Banjir</h4>
+                                    <p>Identifikasi area berisiko tinggi genangan dengan prioritas penanganan.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Perencanaan Teknis Saluran</h4>
+                                    <p>Desain teknis untuk perbaikan dan pengembangan saluran drainase.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Solusi Drainase Berwawasan Lingkungan</h4>
+                                    <p>Rekomendasi sistem drainase ramah lingkungan dan berkelanjutan.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Perkiraan Anggaran dan Tahapan</h4>
+                                    <p>Estimasi biaya dan rekomendasi tahapan implementasi jangka pendek hingga panjang.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Modal 7 - Penyusunan RDTR Kawasan Strategis -->
+<div id="project-modal-7" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project7-detail.jpg" alt="Penyusunan RDTR Kawasan Strategis">
+                    <div class="project-category-badge">Perencanaan Tata Ruang</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project7-detail.jpg">
+                        <img src="../assets/images/projects/project7-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project7-detail2.jpg">
+                        <img src="../assets/images/projects/project7-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project7-detail3.jpg">
+                        <img src="../assets/images/projects/project7-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Dinas Tata Ruang Kabupaten Sragen</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kabupaten Sragen, Jawa Tengah</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2021 - 2024</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Penyusunan RDTR Kawasan Strategis</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-map"></i></div>
+                        <div class="highlight-text">Perencanaan area seluas 850 hektar</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-users"></i></div>
+                        <div class="highlight-text">Pelibatan 15+ stakeholder</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="highlight-text">Dokumen perencanaan komprehensif</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Penyusunan Rencana Detail Tata Ruang (RDTR) Kawasan Strategis merupakan inisiatif perencanaan tata ruang detail untuk kawasan yang memiliki nilai strategis bagi pembangunan ekonomi daerah. RDTR ini menjadi panduan terperinci untuk pengembangan kawasan dengan mengintegrasikan aspek tata guna lahan, transportasi, infrastruktur, lingkungan, dan sosial-ekonomi.</p>
+                        <p>Dokumen RDTR ini menyediakan landasan teknis dan legal untuk pengendalian pemanfaatan ruang, perizinan pembangunan, dan investasi infrastruktur di kawasan strategis tersebut.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kompleksitas Kepentingan</h4>
+                                    <p>Beragamnya kepentingan stakeholder yang perlu diakomodasi dalam rencana.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Keselarasan dengan Rencana Induk</h4>
+                                    <p>Kebutuhan untuk menyelaraskan detail perencanaan dengan RTRW yang telah ada.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Potensi Konflik Tata Guna Lahan</h4>
+                                    <p>Adanya potensi konflik antara penggunaan lahan eksisting dengan rencana.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Penyusunan</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menggunakan pendekatan partisipatif dan berbasis data dalam penyusunan RDTR kawasan strategis.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-clipboard-list"></i></div>
+                                    <div class="method-name">Data Collection</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-comments"></i></div>
+                                    <div class="method-name">Public Consultation</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-layer-group"></i></div>
+                                    <div class="method-name">Spatial Analysis</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-chart-pie"></i></div>
+                                    <div class="method-name">Zoning Plan</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan dokumen perencanaan komprehensif yang terdiri dari:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Materi Teknis RDTR</h4>
+                                    <p>Dokumen teknis yang berisi rencana detail tata ruang kawasan strategis.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Peraturan Zonasi</h4>
+                                    <p>Dokumen legal untuk pengendalian pemanfaatan ruang dan perizinan.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Rencana Program Investasi</h4>
+                                    <p>Identifikasi program dan kebutuhan investasi infrastruktur prioritas.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Peta Digital RDTR</h4>
+                                    <p>Database GIS untuk mendukung implementasi dan pemantauan rencana.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Modal 8 - Aplikasi Mobile Informasi Layanan Publik -->
+<div id="project-modal-8" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project8-detail.jpg" alt="Aplikasi Mobile Informasi Layanan Publik">
+                    <div class="project-category-badge">IT Development</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project8-detail.jpg">
+                        <img src="../assets/images/projects/project8-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project8-detail2.jpg">
+                        <img src="../assets/images/projects/project8-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project8-detail3.jpg">
+                        <img src="../assets/images/projects/project8-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Pemerintah Kabupaten Gunungkidul</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kabupaten Gunungkidul, DI Yogyakarta</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2023 - 2024</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Aplikasi Mobile Informasi Layanan Publik</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="highlight-text">Platform Android & iOS</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-cogs"></i></div>
+                        <div class="highlight-text">Integrasi 12 layanan publik</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-download"></i></div>
+                        <div class="highlight-text">5000+ pengguna aktif</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Aplikasi Mobile Informasi Layanan Publik merupakan pengembangan platform digital terintegrasi yang memberikan akses mudah bagi masyarakat terhadap berbagai layanan publik di Kabupaten Gunungkidul. Aplikasi ini dirancang untuk menyediakan informasi terkini, panduan prosedur layanan, dan kanal pengaduan masyarakat dalam satu platform yang user-friendly.</p>
+                        <p>Tujuan utamanya adalah meningkatkan transparansi dan efisiensi pelayanan publik serta memudahkan masyarakat mengakses layanan pemerintah tanpa harus datang langsung ke kantor dinas terkait.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Integrasi Data Lintas OPD</h4>
+                                    <p>Kompleksitas mengintegrasikan data dari berbagai dinas dan instansi.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Keterbatasan Konektivitas</h4>
+                                    <p>Variasi kualitas jaringan internet di berbagai wilayah Kabupaten.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Keamanan Data</h4>
+                                    <p>Kebutuhan untuk melindungi data pribadi pengguna dan informasi sensitif.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Pengembangan</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menggunakan metodologi agile dengan pendekatan user-centered design untuk pengembangan aplikasi.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-mobile-alt"></i></div>
+                                    <div class="method-name">Native App</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-server"></i></div>
+                                    <div class="method-name">REST API</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-lock"></i></div>
+                                    <div class="method-name">Security Protocol</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-user-check"></i></div>
+                                    <div class="method-name">User Testing</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan aplikasi mobile komprehensif dengan fitur-fitur berikut:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Direktori Layanan</h4>
+                                    <p>Informasi lengkap tentang prosedur, persyaratan, dan lokasi pelayanan.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Pengaduan Terintegrasi</h4>
+                                    <p>Sistem pengaduan dengan fitur tracking dan notifikasi respons.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Pemetaan Lokasi</h4>
+                                    <p>Integrasi peta lokasi layanan publik dengan panduan arah.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Pusat Informasi</h4>
+                                    <p>Kanal berita dan pengumuman resmi dari pemerintah daerah.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Modal 9 - Pemetaan 3D Situs Bersejarah -->
+<div id="project-modal-9" class="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+        <div class="modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        
+        <div class="project-modal-content">
+            <div class="project-modal-gallery">
+                <div class="project-cover-image">
+                    <img src="../assets/images/projects/project9-detail.jpg" alt="Pemetaan 3D Situs Bersejarah">
+                    <div class="project-category-badge">Drone Mapping</div>
+                </div>
+                
+                <div class="project-thumbnail-gallery">
+                    <div class="thumbnail active" data-img="../assets/images/projects/project9-detail.jpg">
+                        <img src="../assets/images/projects/project9-detail.jpg" alt="Overview">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project9-detail2.jpg">
+                        <img src="../assets/images/projects/project9-detail2.jpg" alt="Detail">
+                    </div>
+                    <div class="thumbnail" data-img="../assets/images/projects/project9-detail3.jpg">
+                        <img src="../assets/images/projects/project9-detail3.jpg" alt="Implementation">
+                    </div>
+                </div>
+                
+                <div class="project-meta-details">
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="meta-content">
+                            <h4>Klien</h4>
+                            <p>Dinas Pariwisata dan Kebudayaan Kota Surakarta</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Lokasi</h4>
+                            <p>Kota Surakarta, Jawa Tengah</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="meta-content">
+                            <h4>Tahun</h4>
+                            <p>2023 - 2024</p>
+                        </div>
+                    </div>
+                    
+                    <div class="meta-group">
+                        <div class="meta-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="meta-content">
+                            <h4>Status</h4>
+                            <p class="status-completed">Selesai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-modal-info">
+                <h2 class="project-title">Pemetaan 3D Situs Bersejarah</h2>
+                
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-monument"></i></div>
+                        <div class="highlight-text">Pemodelan 3D 8 situs bersejarah</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-camera"></i></div>
+                        <div class="highlight-text">Dokumentasi fotografi 360°</div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-vr-cardboard"></i></div>
+                        <div class="highlight-text">Platform virtual tour interaktif</div>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <div class="description-tabs">
+                        <button class="tab-btn active" data-tab="overview">Ringkasan</button>
+                        <button class="tab-btn" data-tab="challenge">Tantangan</button>
+                        <button class="tab-btn" data-tab="solution">Solusi</button>
+                        <button class="tab-btn" data-tab="result">Hasil</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <p>Proyek Pemetaan 3D Situs Bersejarah merupakan inisiatif inovatif untuk mendokumentasikan, melestarikan, dan mempromosikan warisan budaya di Kota Surakarta melalui teknologi digital. Proyek ini menggabungkan teknologi drone mapping, fotogrametri, dan visualisasi 3D untuk menciptakan model digital detail dari situs-situs bersejarah yang memiliki nilai penting bagi sejarah dan budaya.</p>
+                        <p>Hasil pemetaan 3D ini digunakan untuk keperluan pelestarian, pendidikan, serta promosi pariwisata melalui platform tur virtual yang memungkinkan masyarakat mengeksplorasi situs-situs bersejarah secara digital.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="challenge">
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kompleksitas Struktur Bangunan</h4>
+                                    <p>Kerumitan arsitektur dan ornamen detail pada bangunan bersejarah.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Keterbatasan Akses</h4>
+                                    <p>Kendala akses ke beberapa area situs yang sensitif atau terbatas.</p>
+                                </div>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div class="challenge-content">
+                                    <h4>Kualitas Model Digital</h4>
+                                    <p>Kebutuhan untuk menghasilkan model dengan akurasi dan detail tinggi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="solution">
+                        <div class="solution-approach">
+                            <h4>Pendekatan Teknologi</h4>
+                            <p>Tim PT. Rekadwipa Teknika Studio menerapkan kombinasi teknologi terkini untuk pemetaan dan pemodelan 3D situs bersejarah.</p>
+                            
+                            <div class="solution-methods">
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-helicopter"></i></div>
+                                    <div class="method-name">Drone Mapping</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-camera"></i></div>
+                                    <div class="method-name">Photogrammetry</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-cube"></i></div>
+                                    <div class="method-name">3D Modeling</div>
+                                </div>
+                                <div class="method-item">
+                                    <div class="method-icon"><i class="fas fa-vr-cardboard"></i></div>
+                                    <div class="method-name">VR Integration</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="result">
+                        <div class="result-summary">
+                            <p>Proyek ini menghasilkan aset digital komprehensif yang meliputi:</p>
+                        </div>
+                        
+                        <div class="result-highlights">
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Model 3D Akurat</h4>
+                                    <p>Model tiga dimensi detail dari setiap situs bersejarah dengan tekstur realistis.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Arsip Digital</h4>
+                                    <p>Database komprehensif untuk dokumentasi dan pelestarian warisan budaya.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Platform Tur Virtual</h4>
+                                    <p>Aplikasi web interaktif yang memungkinkan eksplorasi virtual situs bersejarah.</p>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-icon"><i class="fas fa-check-circle"></i></div>
+                                <div class="result-content">
+                                    <h4>Materi Edukasi</h4>
+                                    <p>Konten informatif tentang sejarah dan nilai budaya setiap situs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-cta">
+                    <a href="../pages/contact.html" class="btn btn-primary">Konsultasikan Proyek Serupa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Fixing Call to Action Section -->
+<section id="cta" class="section cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Butuh Layanan Konsultasi?</h2>
+            <p>Konsultasikan kebutuhan proyek Anda dengan tim ahli kami dan dapatkan solusi terbaik.</p>
+            <a href="contact.html" class="btn btn-light">Hubungi Kami Sekarang</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="../assets/images/logo.png" alt="Rekadwipa Teknika Studio">
+                        <h3>PT. Rekadwipa Teknika Studio</h3>
+                    </div>
+                    <p>Perusahaan dengan layanan di bidang Tata Ruang, Arsitektur, Teknik Sipil, hingga Teknologi Informasi yang dijalankan oleh praktisi yang berpengalaman di bidang profesional.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Navigasi</h3>
+                    <ul>
+                        <li><a href="../index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> Tentang Kami</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Layanan</a></li>
+                        <li><a href="projects.html"><i class="fas fa-chevron-right"></i> Proyek</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Layanan</h3>
+                    <ul>
+                        <li><a href="services.html#tata-ruang"><i class="fas fa-chevron-right"></i> Perencanaan Tata Ruang</a></li>
+                        <li><a href="services.html#arsitektur"><i class="fas fa-chevron-right"></i> Arsitektur</a></li>
+                        <li><a href="services.html#it-development"><i class="fas fa-chevron-right"></i> IT Development</a></li>
+                        <li><a href="services.html#teknik-sipil"><i class="fas fa-chevron-right"></i> Teknik Sipil</a></li>
+                        <li><a href="services.html#kajian-teknis"><i class="fas fa-chevron-right"></i> Kajian Teknis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-subscribe">
+                    <h3 class="footer-title">Berlangganan</h3>
+                    <p>Berlangganan newsletter kami untuk mendapatkan informasi terbaru.</p>
+                    <form class="subscribe-form" id="newsletterForm">
+                        <input type="email" class="subscribe-input" placeholder="Email Anda" required>
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PT. Rekadwipa Teknika Studio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('=== DEBUG MODALS ===');
+            
+            // 1. Periksa elemen modal
+            const modals = document.querySelectorAll('.project-modal');
+            console.log('Project modals found:', modals.length);
+            
+            modals.forEach((modal, index) => {
+                console.log(`Modal ${index + 1} ID:`, modal.id);
+                
+                // 2. Periksa tombol close di dalam modal
+                const closeBtn = modal.querySelector('.modal-close');
+                console.log(`Modal ${index + 1} has close button:`, closeBtn ? true : false);
+                
+                if (closeBtn) {
+                    // 3. Tambahkan event handler langsung untuk debugging
+                    closeBtn.addEventListener('click', function(e) {
+                        console.log('DEBUG: Close button clicked for modal:', modal.id);
+                        e.preventDefault();
+                        e.stopPropagation();
+                        modal.classList.remove('show');
+                        document.body.style.overflow = 'auto';
+                    });
+                    console.log(`Direct event handler added to close button for modal ${index + 1}`);
+                }
+            });
+            
+            // 4. Cek trigger modal
+            const triggers = document.querySelectorAll('.modal-trigger');
+            console.log('Modal triggers found:', triggers.length);
+            
+            // 5. Validasi struktur CSS untuk .modal-close
+            const modalCloseStyle = window.getComputedStyle(document.querySelector('.modal-close') || document.createElement('div'));
+            console.log('Modal close position:', modalCloseStyle.position);
+            console.log('Modal close z-index:', modalCloseStyle.zIndex);
+        });
+    </script>
+
+    
+</body>
+</html>
